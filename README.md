@@ -1,4 +1,10 @@
-Dopetrope by HTML5 UP
+Dopetones by noelli is an edit of Dopetrope with a coloring Scheme oriented on Earth Tones.
+noell.li
+Free for personal and commercial use under the CCA 3.0 license
+
+Most of the Original Readme applies:
+
+Dopetrope by HTML5up
 html5up.net | @ajlkn
 Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
