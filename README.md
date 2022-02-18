@@ -1,36 +1,23 @@
-Dopetones by noelli is an edit of Dopetrope with a coloring Scheme oriented on Earth Tones.
-noell.li
+# Dopetones_WBCE by noelli
+Dopetones_WBCE by noelli is a WBCE Theme based on the Dopetrope WBCE Port from Florian Meerwinck
+It utilizes the [Dopetones Theme](https://github.com/noell-dev/dopetones).
+
+[noell.li](https://noell.li)
+
 Free for personal and commercial use under the CCA 3.0 license
 
-Most of the Original Readme applies:
-
-Dopetrope by HTML5up
-html5up.net | @ajlkn
-Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 
 
-A spiffy new blog/magazine style responsive site template with a flat/minimal
-design aesthetic.
 
-Demo images* are courtesy of the incredibly talented Janine Pring aka Dreametry Doodle.
-See more of her amazing work (and her awesome t-shirt line) @ dreametrydoodle.com
-
-(* = Not included! Only meant for use with my own on-site demo, so please do NOT download
-and/or use any of Janine's work without her explicit permission!)
-
-Feedback, bug reports, and comments are not only welcome, but strongly encouraged :)
-
-AJ
-aj@lkn.io | @ajlkn
-
-
-Credits:
-
-	Demo Images:
-		Dreametry Doodle (dreametrydoodle.com)
-
+## Credits:
 	Icons:
 		Font Awesome (fontawesome.io)
+
+	Base-Theme:
+		@ajlkn
+
+	Portation:
+		Florian Meerwinck
 
 	Other:
 		jQuery (jquery.com)
