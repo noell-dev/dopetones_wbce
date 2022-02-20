@@ -1,6 +1,7 @@
 <?php
 // no direct file access
 if (count(get_included_files()) == 1) header("Location: ../index.php", TRUE, 301);
+include (WB_PATH.'/modules/wbstats/count.php');
 ?>
 <!DOCTYPE HTML>
 <!--
@@ -71,7 +72,7 @@ if (count(get_included_files()) == 1) header("Location: ../index.php", TRUE, 301
 			$logo_path_png = '/media/logo.png';
 
 			 if (file_exists(WB_PATH . $logo_path_png)){
-				echo '<div class="image"><a href="'  . WB_URL . '"><img src="' . WB_URL . $logo_path_png . '" alt="' . WEBSITE_TITLE . '""></a></div>';
+				echo '<div class="image"><a href="'  . WB_URL . '"><img id="logo" src="' . WB_URL . $logo_path_png . '" alt="' . WEBSITE_TITLE . '""></a></div>';
 
 			 } else {
 				echo '<h1><a href="'  . WB_URL . '">' . WEBSITE_TITLE . '</a></h1>';
