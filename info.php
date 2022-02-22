@@ -1,8 +1,8 @@
 <?php
 
-$template_directory = 'dopetrope';
-$template_name = 'Dopetrope Edit by HTML5 UP and noelli';
-$template_version = '1.1';
+$template_directory = 'dopetones';
+$template_name = 'Dopetones is an edit of Dopetrope by HTML5 UP made by noelli';
+$template_version = '1.0';
 $template_platform = '1.4';
 $template_author = 'html5up.net | @ajlkn, WBCE portation by Florian Meerwinck coloredit by Tobiah Nöll';
 $template_license = 'Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)';
@@ -44,6 +44,7 @@ if (LANGUAGE == "DE") {
 	$block[99] = 'nicht zeigen';
 
 	$menu[1] = 'Navigation';
+	$menu[2] = 'Footer';
 	$menu[99] = 'not in Nav.';
 }
 
