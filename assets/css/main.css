@@ -192,6 +192,7 @@ select {
   color: #252122;
   font-size: 14pt;
   line-height: 1.75em;
+  font-display: swap;
 }
 
 body:not(*:root),
@@ -199,6 +200,7 @@ input:not(*:root),
 textarea:not(*:root),
 select:not(*:root) {
   font-family: "Segoe UI Web (West European)";
+  font-display: swap;
 }
 
 strong,
@@ -300,7 +302,8 @@ dd {
 }
 
 #logo {
-  max-height: 125px;
+  height: 125px;
+  width: auto;
 }
 
 /* Container */
@@ -1801,9 +1804,6 @@ ul.social li a.fa-google-plus:hover {
   padding: 5em 0 4em 0;
   text-align: center;
 }
-#header .image > img {
-  max-height: 125px;
-}
 #header h1 {
   color: #252122;
   font-weight: 900;
@@ -2512,6 +2512,12 @@ article {
     font-weight: 900;
     font-size: 1.75em;
     letter-spacing: -0.035em;
+  }
+
+  #logo {
+    padding: 0 2em;
+    height: auto;
+    width: 100%;
   }
 
   /* Intro */
