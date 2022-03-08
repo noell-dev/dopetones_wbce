@@ -2066,6 +2066,45 @@ ul.social li a.fa-google-plus:hover {
   padding: 0.85em 2.25em 0.85em 2.25em;
 }
 
+/* Wordcloud */
+ul.wordcloud {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  line-height: 2.75rem;
+  }
+
+ul.wordcloud a {
+  /*   
+  Not supported by any browser at the moment :(
+  --size: attr(data-weight number); 
+  */
+  --size: 4;
+  
+  color: var(--color);
+  font-size: calc(var(--size) * 0.25rem + 0.5rem);
+  display: block;
+  padding: 0.125rem 0.25rem;
+  position: relative;
+  text-decoration: none;
+  /* 
+  For different tones of a single color*/
+  opacity: calc((15 - (9 - var(--size))) / 15); 
+}
+
+ul.wordcloud a[data-weight="1"] { --size: 1; }
+ul.wordcloud a[data-weight="2"] { --size: 2; }
+ul.wordcloud a[data-weight="3"] { --size: 3; }
+ul.wordcloud a[data-weight="4"] { --size: 4; }
+ul.wordcloud a[data-weight="5"] { --size: 6; }
+ul.wordcloud a[data-weight="6"] { --size: 8; }
+ul.wordcloud a[data-weight="7"] { --size: 10; }
+ul.wordcloud a[data-weight="8"] { --size: 13; }
+ul.wordcloud a[data-weight="9"] { --size: 16; }
+
 /* XLarge */
 @media screen and (max-width: 1680px) {
   /* Basic */
