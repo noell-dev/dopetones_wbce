@@ -1,11 +1,11 @@
+@import url("fontawesome-all.min.css");
+@import url("fonts.css");
 /*
 	Dopetones by noelli
     Based on Dopetrope by HTML5up
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
-@import url("fontawesome-all.min.css");
-@import url("fonts.css");
 html,
 body,
 div,
@@ -169,7 +169,7 @@ html {
 }
 
 body {
-  background: #ebe6db;
+  background: #E5DDD0;
 }
 body.is-preload *,
 body.is-preload *:before,
@@ -228,7 +228,7 @@ sup {
 }
 
 blockquote {
-  border-left: solid 0.75em #ebe6db;
+  border-left: solid 0.75em #E5DDD0;
   padding: 1em 0 1em 1.5em;
   font-style: italic;
 }
@@ -267,7 +267,7 @@ h3 {
 }
 
 a {
-  color: #445347;
+  color: #b24317;
   text-decoration: underline;
 }
 a:hover {
@@ -280,7 +280,7 @@ br.clear {
 
 hr {
   border: 0;
-  border-top: solid 1px #ebe6db;
+  border-top: solid 1px #E5DDD0;
   height: 1px;
   margin: 2em 0 2em 0;
 }
@@ -1286,22 +1286,22 @@ form input[type=email]:focus,
 form input[type=password]:focus,
 form select:focus,
 form textarea:focus {
-  box-shadow: inset 0px 0px 1px 1px #777a62;
+  box-shadow: inset 0px 0px 1px 1px #6F9889;
 }
 form textarea {
   height: 15em;
 }
 form ::-webkit-input-placeholder {
-  color: #baae96 !important;
+  color: #555 !important;
 }
 form :-moz-placeholder {
-  color: #baae96 !important;
+  color: #555 !important;
 }
 form ::-moz-placeholder {
-  color: #baae96 !important;
+  color: #555 !important;
 }
 form :-ms-input-placeholder {
-  color: #baae96 !important;
+  color: #555 !important;
 }
 form ::-moz-focus-inner {
   border: 0;
@@ -1395,7 +1395,7 @@ footer {
   font-size: 1.25em;
 }
 .box.neutral {
-  background-color: #ebe6db;
+  background-color: #E5DDD0;
   padding: 45px;
 }
 
@@ -1415,7 +1415,7 @@ button,
   cursor: pointer;
   border: 0;
   border-radius: 5px;
-  background: #445347;
+  background: #b24317;
   color: #FFF !important;
   font-weight: 700;
   outline: 0;
@@ -1432,7 +1432,7 @@ input[type=submit]:hover,
 input[type=reset]:hover,
 button:hover,
 .button:hover {
-  background: #3f3a2f;
+  background: #EC9B68;
   color: #FFF !important;
 }
 input[type=button]:active,
@@ -1440,7 +1440,7 @@ input[type=submit]:active,
 input[type=reset]:active,
 button:active,
 .button:active {
-  background: #445347;
+  background: #b24317;
   color: #FFF !important;
 }
 input[type=button].alt,
@@ -1448,7 +1448,7 @@ input[type=submit].alt,
 input[type=reset].alt,
 button.alt,
 .button.alt {
-  background: #777a62;
+  background: #6F9889;
   color: #252122 !important;
 }
 input[type=button].alt:hover,
@@ -1456,7 +1456,7 @@ input[type=submit].alt:hover,
 input[type=reset].alt:hover,
 button.alt:hover,
 .button.alt:hover {
-  background: #cdc68c;
+  background: #ACCABD;
   color: #252122 !important;
 }
 input[type=button].alt:active,
@@ -1464,7 +1464,7 @@ input[type=submit].alt:active,
 input[type=reset].alt:active,
 button.alt:active,
 .button.alt:active {
-  background: #cdc68c;
+  background: #ACCABD;
   color: #252122 !important;
 }
 input[type=button].icon:before,
@@ -1550,7 +1550,7 @@ ul.links {
 }
 ul.links li {
   display: inline-block;
-  border-left: solid 1px #445347;
+  border-left: solid 1px #b24317;
   padding: 0 0 0 1em;
   margin: 0 0 0 1em;
 }
@@ -1602,7 +1602,7 @@ ul.dates .date {
   position: absolute;
   left: 0;
   top: 1.3em;
-  background-color: #445347;
+  background-color: #b24317;
   height: 3.5em;
   text-align: center;
   color: #FFF;
@@ -1616,7 +1616,7 @@ ul.dates .date:after {
   position: absolute;
   bottom: 0;
   right: -1.2em;
-  border-left: solid 1.25em #445347;
+  border-left: solid 1.25em #b24317;
   border-top: solid 1.8em transparent;
   border-bottom: solid 1.8em transparent;
 }
@@ -1676,7 +1676,7 @@ ul.social li a {
   height: 3em;
   text-align: center;
   border-radius: 5px;
-  background: #ebe6db;
+  background: #E5DDD0;
   -moz-transition: background-color .25s ease-in-out;
   -webkit-transition: background-color .25s ease-in-out;
   -ms-transition: background-color .25s ease-in-out;
@@ -1757,7 +1757,7 @@ ul.social li a.fa-google-plus:hover {
 .icon.featured {
   position: relative;
   display: inline-block;
-  background-color: #445347;
+  background-color: #b24317;
   width: 9em;
   padding: 1.75em 0 0.75em 0;
   border-top-left-radius: 5px;
@@ -1775,7 +1775,7 @@ ul.social li a.fa-google-plus:hover {
   position: absolute;
   bottom: -1.95em;
   left: 0;
-  border-top: solid 2em #445347;
+  border-top: solid 2em #b24317;
   border-left: solid 4.5em transparent;
   border-right: solid 4.5em transparent;
 }
@@ -1786,10 +1786,10 @@ ul.social li a.fa-google-plus:hover {
   border-top-color: #252122;
 }
 .icon.featured.alt2 {
-  background-color: #777a62;
+  background-color: #6F9889;
 }
 .icon.featured.alt2:after {
-  border-top-color: #777a62;
+  border-top-color: #6F9889;
 }
 
 /* Page Wrapper */
@@ -1843,7 +1843,7 @@ ul.social li a.fa-google-plus:hover {
   background: #f7f7f7;
 }
 #nav > ul > li.current > a {
-  background: #445347;
+  background: #b24317;
   color: #fff !important;
   font-weight: 700;
 }
@@ -1917,7 +1917,7 @@ ul.social li a.fa-google-plus:hover {
   margin: 0 0 0.65em 0;
 }
 #banner header p {
-  color: #445347;
+  color: #b24317;
   padding: 0;
   font-style: normal;
   margin: 0;
@@ -2009,7 +2009,7 @@ ul.social li a.fa-google-plus:hover {
   opacity: 0.5;
 }
 #footer a {
-  color: #445347;
+  color: #b24317;
 }
 #footer h2,
 #footer h3,
@@ -2185,13 +2185,13 @@ select {
     margin: 0;
   }
 }
-/* Medium */
-#navPanel,
-#titleBar {
-  display: none;
-}
-
 @media screen and (max-width: 980px) {
+  /* Medium */
+  #navPanel,
+#titleBar {
+    display: none;
+  }
+
   /* Basic */
   html,
 body {
@@ -2355,7 +2355,7 @@ body {
   }
   #navPanel .link {
     display: block;
-    color: #445347;
+    color: #b24317;
     text-decoration: none;
     height: 44px;
     line-height: 44px;
@@ -2388,7 +2388,7 @@ body {
     width: 5em;
   }
   #navPanel .depth-0 {
-    color: #445347;
+    color: #b24317;
   }
 
   body.navPanel-visible #page-wrapper {

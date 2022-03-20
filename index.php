@@ -16,7 +16,7 @@ include (WB_PATH.'/modules/wbstats/count.php');
 	<?php simplepagehead(); ?>
 	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 	<!-- change to the color-scheme of your liking-->
-	<link rel="stylesheet" href="<?php echo TEMPLATE_DIR; ?>/assets/css/dopetones.css" />
+	<link rel="stylesheet" href="<?php echo TEMPLATE_DIR; ?>/assets/css/main.css" />
 	<?php
 	register_frontend_modfiles('css');
 	register_frontend_modfiles('jquery');
