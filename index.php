@@ -223,7 +223,7 @@ include (WB_PATH.'/modules/wbstats/count.php');
 					<?php } ?>
 					<div class="col-6">
 					<div id="bottomnav">
-					<?php echo $mainnav; ?>
+					<?php echo $footernav; ?>
 					</div>
 					</div>
 					<div class="col-6">
