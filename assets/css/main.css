@@ -1440,8 +1440,8 @@ input[type=submit]:active,
 input[type=reset]:active,
 button:active,
 .button:active {
-  background: #b24317;
-  color: #FFF !important;
+  background: #EC9B68;
+  color: #252122 !important;
 }
 input[type=button].alt,
 input[type=submit].alt,
@@ -1449,7 +1449,7 @@ input[type=reset].alt,
 button.alt,
 .button.alt {
   background: #6F9889;
-  color: #252122 !important;
+  color: #FFF !important;
 }
 input[type=button].alt:hover,
 input[type=submit].alt:hover,
@@ -1457,7 +1457,7 @@ input[type=reset].alt:hover,
 button.alt:hover,
 .button.alt:hover {
   background: #ACCABD;
-  color: #252122 !important;
+  color: #FFF !important;
 }
 input[type=button].alt:active,
 input[type=submit].alt:active,
@@ -1849,16 +1849,14 @@ ul.social li a.fa-google-plus:hover {
 }
 #nav > ul > li.current > a {
   background: #b24317;
-  color: #fff !important;
+  color: #FFF !important;
   font-weight: 700;
 }
 
 .dropotron {
   border-radius: 5px;
-  background-color: #252122;
-  background-color: rgba(34, 30, 31, 0.98);
+  background-color: #b24317;
   padding: 1.25em 1.5em 1.25em 1.5em;
-  font-style: italic;
   min-width: 13em;
   box-shadow: 0px 8px 15px 0px rgba(0, 0, 0, 0.5);
   text-align: left;
@@ -1868,7 +1866,7 @@ ul.social li a.fa-google-plus:hover {
 }
 .dropotron a,
 .dropotron span {
-  color: #aaa;
+  color: #FFF;
   text-decoration: none;
   -moz-transition: color .25s ease-in-out;
   -webkit-transition: color .25s ease-in-out;
@@ -1880,7 +1878,7 @@ ul.social li a.fa-google-plus:hover {
 }
 .dropotron li:hover > a,
 .dropotron li:hover > span {
-  color: #fff;
+  color: #EC9B68;
 }
 .dropotron.level-0 {
   margin-top: 2em;
@@ -1894,8 +1892,8 @@ ul.social li a.fa-google-plus:hover {
   top: -9px;
   border-left: solid 10px transparent;
   border-right: solid 10px transparent;
-  border-bottom: solid 10px #252122;
-  border-bottom-color: rgba(34, 30, 31, 0.98);
+  border-bottom: solid 10px #b24317;
+  border-bottom-color: #b24317;
 }
 
 /* Banner */
@@ -1916,7 +1914,7 @@ ul.social li a.fa-google-plus:hover {
   border-radius: 5px;
 }
 #banner header h2 {
-  color: #fff;
+  color: #FFF;
   font-weight: 700;
   font-size: 2.5em;
   margin: 0 0 0.65em 0;
@@ -2090,8 +2088,7 @@ ul.wordcloud a {
   --size: attr(data-weight number); 
   */
   --size: 4;
-  --color: #a33;
-  color: var(--color);
+  color: #b24317;
   font-size: calc(var(--size) * 0.25rem + 0.5rem);
   display: block;
   padding: 0.125rem 0.25rem;
