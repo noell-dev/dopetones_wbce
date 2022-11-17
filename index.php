@@ -45,7 +45,7 @@ include (WB_PATH.'/modules/wbstats/count.php');
 		$aMenuOpen      = '<ul>',
 		$aMenuClose     = '</ul>',
 		$aTopItemOpen   = false,
-		$aTopMenuOpen   = '<ul>'
+		$aTopMenuOpen   = '<ul class="links">'
 	);
 
 	require_once __DIR__ . '/info.php';
@@ -185,57 +185,87 @@ include (WB_PATH.'/modules/wbstats/count.php');
 		<section id="footer">
 
 			<div class="container">
+			  <div class="row">
+				<?php 
+					if ($footernav) { ?>
+					<div class="col-12">
+							<section style="text-align:center;">
+								<?php echo $footernav; ?>
+							</section>
+						</div>
+					<?php } ?>
+				  </div>
+				</div>
+			  <div class="container">
 				<div class="row">
-					<?php if ($block[7] != '') { ?>
+					<?php if ($block[7] != '' || $block[8] != '') { ?>
 						<div class="col-8 col-12-medium">
 							<section>
 								<?php echo $block[7]; ?>
 							</section>
 						</div>
 					<?php }
-					if ($block[8] != '') { ?>
+					if ($block[7] != '' || $block[8] != '') { ?>
 						<div class="col-4 col-12-medium">
 							<section>
+								
 								<?php echo $block[8]; ?>
 							</section>
 						</div>
 					<?php }
-					if ($block[9] != '') { ?>
+					if ($block[9] != '' || $block[10] != '' || $block[11] != '') { ?>
 						<div class="col-4 col-6-medium col-12-small">
 							<section>
 								<?php echo $block[9]; ?>
 							</section>
 						</div>
 					<?php }
-					if ($block[10] != '') { ?>
+					if ($block[9] != '' || $block[10] != '' || $block[11] != '') { ?>
 						<div class="col-4 col-6-medium col-12-small">
 							<section>
 								<?php echo $block[10]; ?>
 							</section>
 						</div>
 					<?php }
-					if ($block[11] != '') { ?>
+					if ($block[9] != '' || $block[10] != '' || $block[11] != '') { ?>
 						<div class="col-4 col-12-medium">
 							<section>
 								<?php echo $block[11]; ?>
 							</section>
 						</div>
 					<?php } ?>
-					<div class="col-6">
-					<div id="bottomnav">
-					<?php echo $footernav; ?>
-					</div>
-					</div>
-					<div class="col-6">
+				</div>
+			</div>
+			<div style="padding: 5em 0 0 0;">
+				<div class="row aln-center">
+					<div class="col-12">
 						<!-- Copyright -->
 						<div id="copyright">
-							<ul>
+							<ul class="links">
+							<?php if (WEBSITE_FOOTER != '') { ?>
 								<li>
-									<?php
-									echo WEBSITE_FOOTER;
+									
+									<?php echo WEBSITE_FOOTER;
 									// do NOT remove the link to html5up unless you bought a license from them!!!
-									?></li>
-								<li>Theme: <a href="https://html5up.net" target="_blank" rel="noopener">HTML5 UP</a></li>
+									?>
+							    </li>
+							<?php } ?>
+								<li>Design: <a href="https://html5up.net" target="_blank" rel="noopener">HTML5 UP</a></li>
+								<li>Theme: <a href="https://noell.li" target="_blank">noelli</a></li>
+								<?php
+								 if (FRONTEND_LOGIN) {
+			  						if (is_numeric($wb->get_session('USER_ID'))) {
+										echo '<li><a href="'.LOGOUT_URL.'">Abmelden</a></li>';
+										echo '<li><a href="'.PREFERENCES_URL.'">Profil</a></li>';
+										if ($wb->ami_group_member('1')) {
+											echo '<li><a href="'.ADMIN_URL.'/pages/modify.php?page_id='.PAGE_ID.'" target="_blank">Seite bearbeiten</a></li>';
+		  								}
+			  						} else {
+										echo '<li><a href="'.LOGIN_URL.'">Anmelden</a></li>';
+										echo '<li><a href="'.SIGNUP_URL.'">Registrieren</a></li>';			
+									}
+								 }
+								?>
 							</ul>
 						</div>
 					</div>
@@ -244,7 +274,7 @@ include (WB_PATH.'/modules/wbstats/count.php');
 		</section>
 
 	</div>
-
+	[[imageresizer]]
 	<!-- Scripts -->
 
 	<script src="<?php echo TEMPLATE_DIR; ?>/assets/js/jquery.dropotron.min.js"></script>
