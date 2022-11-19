@@ -148,15 +148,16 @@ input::-moz-focus-inner {
   padding: 0;
 }
 
+/*
 input,
 select,
 textarea {
-  -moz-appearance: none;
-  -webkit-appearance: none;
-  -ms-appearance: none;
-  appearance: none;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    -ms-appearance: none;
+    appearance: none;
 }
-
+*/
 /* Basic */
 html {
   box-sizing: border-box;
@@ -1271,7 +1272,6 @@ form input[type=email],
 form input[type=password],
 form select,
 form textarea {
-  -webkit-appearance: none;
   display: block;
   border: 0;
   padding: 0.75em 1em;
@@ -1409,7 +1409,6 @@ input[type=submit],
 input[type=reset],
 button,
 .button {
-  -webkit-appearance: none;
   display: inline-block;
   text-decoration: none;
   cursor: pointer;
